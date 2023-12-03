@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = '3fd5c21266528f88f30a8d85d25eb498'
+API_KEY = 'your api key here'
 
 
 def fetch_data(city: str):
