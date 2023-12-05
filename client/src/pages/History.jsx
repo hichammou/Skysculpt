@@ -10,13 +10,9 @@ function History() {
   const [isSorted, setIsSorted] = useState(false);
   const [filterByCountry, setFilterByCountry] = useState("");
 
-  let _cities;
-
   const sortedCities = isSorted
     ? cities.toSorted((a, b) => a.cityName.localeCompare(b.cityName))
     : cities;
-
-  // if ()
 
   useEffect(() => {
     (async function () {
