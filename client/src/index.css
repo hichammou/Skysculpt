@@ -4,6 +4,10 @@
 
 
 @layer components {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
     .main {
         width: 100vw;
         min-height: 100vh;

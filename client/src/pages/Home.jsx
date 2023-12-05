@@ -39,7 +39,7 @@ function Home() {
   }
 
   return (
-    <section className="flex gap-10 flex-col items-center">
+    <section className="flex gap-10 flex-col items-center translate-y-28">
       <div className="head_text text-center">
         <h1>
           Search & Visualize

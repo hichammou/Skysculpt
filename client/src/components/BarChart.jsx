@@ -64,7 +64,7 @@ const BarChart = ({ days, temperatures, humidities }) => {
         <button
           onClick={() => setChartType("bar")}
           className={`bg-slate-${
-            chatType === "bar" ? "4" : "5"
+            chatType === "bar" ? "4" : "3"
           }00 px-5 py-2 font-semibold rounded-md text-slate-900 tracking-wide`}
         >
           Bar
@@ -72,7 +72,7 @@ const BarChart = ({ days, temperatures, humidities }) => {
         <button
           onClick={() => setChartType("line")}
           className={`bg-slate-${
-            chatType === "line" ? "4" : "5"
+            chatType === "line" ? "4" : "3"
           }00 px-5 py-2 font-semibold rounded-md text-slate-900 tracking-wide`}
         >
           Line

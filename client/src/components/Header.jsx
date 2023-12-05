@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="flex bg-slate-50 bg-opacity-50 sticky top-0 z-50 backdrop-blur-xl justify-between mb-20 py-5 items-center">
+    <header className="flex bg-slate-50 bg-opacity-50 sticky top-0 z-50 backdrop-blur-xl justify-between mb-8 py-5 items-center">
       <p className="font-bold text-2xl blue_gradient">
         <Link to="/">Skysculpt</Link>
       </p>
