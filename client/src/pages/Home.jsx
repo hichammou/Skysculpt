@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useState } from "react";
-import LoadingIcons from "react-loading-icons";
 import CityWeatherQuickDetails from "../components/CityWeatherQuickDetails";
 import Error from "../components/Error";
+import Loader from "../components/Loader";
 // import { Link } from "react-router-dom";
 // import { convertToFlag } from "../utils/helpers";
 
@@ -58,7 +58,8 @@ function Home() {
         />
       </form>
       {error && <Error>We could not find the city you are looking for</Error>}
-      {isLoading && <LoadingIcons.Grid fill="#06b6d4" className="mt-10" />}
+      {/* {isLoading && <LoadingIcons.Grid fill="#06b6d4" className="mt-10" />} */}
+      {isLoading && <Loader />}
       {!isLoading && city.city && <CityWeatherQuickDetails city={city} />}
     </section>
   );
